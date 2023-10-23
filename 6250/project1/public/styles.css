@@ -1,0 +1,103 @@
+html {
+    padding: 0;
+    margin: 0;
+    background-color: darkblue;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.login__page {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0;
+}
+
+.login__form {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.game__page {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0;
+}
+
+.word__list {
+    border: yellow solid 5px;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(12, 1fr);
+    list-style-type: none;
+    background-color: lightskyblue;
+    color: black;
+}
+
+.guessable__word {
+    grid-column: span 1;
+}
+
+.guess__list {
+    border: yellow solid 5px;
+    display: grid;
+    padding: 2rem;
+    margin: 0;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: lightskyblue;
+    color: black;
+
+}
+
+.guessed__word {
+    grid-column: span 1;
+    gap: 2rem;
+}
+
+.button__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button__wrapper {
+    border: yellow solid 5px;
+    display: grid;
+    padding: 2rem;
+    margin: 0;
+    background-color: lightskyblue;
+    color: black;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.win__message {
+    border: green solid 5px;
+    display: grid;
+    padding: 2rem;
+    margin: 0;
+    background-color: lightgreen;
+    color: black;
+    font-weight: bolder;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.error__message {
+    border: red solid 5px;
+    display: grid;
+    padding: 2rem;
+    margin: 0;
+    background-color: lightsalmon;
+    color: black;
+    font-weight: bolder;
+    margin-top: 5rem;
+    text-align: center;
+}
