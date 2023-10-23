@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: slategrey;
+}
+
+h1 {
+
+    grid-column: span 12;
+    padding: 0;
+    margin: 0;
+    height: 5rem;
+    text-align: center;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    grid-column: span 12;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 0;
+    margin: 0;
+    background-color: lightskyblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: slategrey;
+    padding-top: 5rem;
+}
+
+form {
+    grid-column: 5/10;
+    padding-top: 5rem;
+}
+
+p {
+    background-color: azure;
+    border-right: solid black 1px;
+    grid-column: 5/8;
+    text-align: center;
+}

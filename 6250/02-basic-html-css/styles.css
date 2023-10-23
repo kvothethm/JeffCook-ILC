@@ -1,0 +1,13 @@
+html {
+    background-color: lightslategray;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: palegreen;
+}
+
+footer {
+    background-color: palegreen;
+}
