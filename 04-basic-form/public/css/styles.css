@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: azure;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 5px;
+
+    grid-column: 4 / 9;
+}
+
+@media only screen and (max-width: 50rem) {
+    form {
+        grid-column: 2/11;
+    }
+}
+
+
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+footer {
+    background-color: azure;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.required {
+    color: red;
+}
