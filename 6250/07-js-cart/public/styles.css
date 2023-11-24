@@ -1,0 +1,54 @@
+.html {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.site-name {
+    text-align: center;
+}
+
+.site-motto {
+    text-align: center;
+}
+
+.toggle-button {
+    text-align: right;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inventory {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    gap: 1rem;
+
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #635c51;
+    width: 150px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-item {
+    border: black solid 1px;
+}
+
+.cart-img {
+    height: 100px;
+    width: 100px;
+}
