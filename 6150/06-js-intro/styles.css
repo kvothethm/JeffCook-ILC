@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.menu-button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown {
+    display: none;
+}
+
+.open .dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 0;
+    width: 8rem;
+}
+
+.menu-option {
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+}
+
+.content-cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: span 12;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #f9f9f9a9;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.card-image {
+    height: 300px;
+    width: 300px;
+}
+
+.card-text {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.card-link {
+    display: inline-block;
+    padding: 0.25rem;
+    margin-top: auto;
+
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
